@@ -2,24 +2,24 @@
   "Promotions": [
     {
       "PromotionId": 1,
-      "Quantity": 3,
+      "Quantity": 4,
       "Type": "Single",
       "ProductCode": "A",
-      "Price": 130
+      "Price": 100
     },
     {
       "PromotionId": 2,
-      "Quantity": 2,
+      "Quantity": 5,
       "Type": "Single",
       "ProductCode": "B",
-      "Price": 45
+      "Price": 50
     },
     {
       "PromotionId": 3,
       "Quantity": 2,
       "Type": "Combo",
       "ProductCode": "C;D",
-      "Price": 30
+      "Price": 80
     }
 
   ],
@@ -27,25 +27,25 @@
     {
       "ProductId": 1,
       "ProductCode": "A",
-      "ProductName": "A",
+      "ProductName": "Apprin",
       "Price": 50
     },
     {
       "ProductId": 2,
       "ProductCode": "B",
-      "ProductName": "B",
+      "ProductName": "Basket",
       "Price": 30
     },
     {
       "ProductId": 3,
       "ProductCode": "C",
-      "ProductName": "C",
+      "ProductName": "Clutch",
       "Price": 20
     },
     {
       "ProductId": 4,
       "ProductCode": "D",
-      "ProductName": "D",
+      "ProductName": "Dropper",
       "Price": 15
     }
   ]
