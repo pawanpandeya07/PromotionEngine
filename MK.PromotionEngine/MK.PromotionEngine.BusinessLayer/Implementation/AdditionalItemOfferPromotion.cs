@@ -15,6 +15,11 @@ namespace MK.PromotionEngine.BusinessLayer
             promotion = new Promotion();
             checkout = new Checkout();
         }
+        /// <summary>
+        /// CalculateProductPrice
+        /// </summary>
+        /// <param name="productCheckoutList"></param>
+        /// <returns></returns>
         public double CalculateProductPrice(List<Checkout> productCheckoutList)
         {
             double finalPrice = 0;
