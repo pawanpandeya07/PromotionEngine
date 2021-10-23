@@ -14,7 +14,7 @@ namespace MK.PromotionEngine.RepositoryLayer
         {
             try
             {
-                var builder = new ConfigurationBuilder().SetBasePath("C:\\Users\\pawan\\Source\\Repos\\PromotionEngine\\MK.PromotionEngine\\MK.PromotionEngine.RepositoryLayer\\")
+                var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
                     .AddJsonFile(Constants.DataBase, false);
 
                 configuration = builder.Build();
